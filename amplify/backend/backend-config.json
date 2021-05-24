@@ -11,10 +11,29 @@
           "additionalAuthenticationProviders": []
         }
       }
+    },
+    "myApi": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "plantasLambda",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
     }
   },
   "function": {
     "plantasFunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "plantasLambda": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"

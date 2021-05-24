@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/",
+      "lambdaFunction": "plantasLambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/"
+    }
+  ],
+  "resourceName": "myApi",
+  "apiName": "myApi",
+  "functionArns": [
+    {
+      "lambdaFunction": "plantasLambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-plantasappamplify-dev-200752-authRole",
+    "unAuthRoleName": "amplify-plantasappamplify-dev-200752-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "plantasLambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

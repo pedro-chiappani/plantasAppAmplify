@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "plantasFunction",
+            "plantasLambda",
             {
               "Fn::Join": [
                 "",
                 [
-                  "plantasFunction",
+                  "plantasLambda",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "plantasappamplifyLambdaRole1eaeb323",
+            "plantasappamplifyLambdaRolee1c2ac0d",
             {
               "Fn::Join": [
                 "",
                 [
-                  "plantasappamplifyLambdaRole1eaeb323",
+                  "plantasappamplifyLambdaRolee1c2ac0d",
                   "-",
                   {
                     "Ref": "env"

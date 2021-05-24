@@ -10,6 +10,18 @@
       "StackName": "amplify-plantasappamplify-dev-200752",
       "StackId": "arn:aws:cloudformation:us-east-2:343175072390:stack/amplify-plantasappamplify-dev-200752/8b3f5cb0-bb52-11eb-85ed-025decdb3bd0",
       "AmplifyAppId": "d3u8ux24dhlraq"
+    },
+    "categories": {
+      "function": {
+        "plantasLambda": {
+          "deploymentBucketName": "amplify-plantasappamplify-dev-200752-deployment",
+          "s3Key": "amplify-builds/plantasLambda-43477a3963777a596536-build.zip"
+        },
+        "plantasFunction": {
+          "deploymentBucketName": "amplify-plantasappamplify-dev-200752-deployment",
+          "s3Key": "amplify-builds/plantasFunction-706962524b5343335141-build.zip"
+        }
+      }
     }
   }
 }
