@@ -10,6 +10,14 @@
       "StackName": "amplify-plantasappamplify-dev-173441",
       "StackId": "arn:aws:cloudformation:us-east-2:343175072390:stack/amplify-plantasappamplify-dev-173441/79492120-bccf-11eb-b673-0a3d303aea5e",
       "AmplifyAppId": "d2sxnazxok21f2"
+    },
+    "categories": {
+      "function": {
+        "plantasLamnda": {
+          "deploymentBucketName": "amplify-plantasappamplify-dev-173441-deployment",
+          "s3Key": "amplify-builds/plantasLamnda-423277557a4e58325952-build.zip"
+        }
+      }
     }
   }
 }
