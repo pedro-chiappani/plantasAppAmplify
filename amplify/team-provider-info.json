@@ -15,7 +15,7 @@
       "function": {
         "plantasLamnda": {
           "deploymentBucketName": "amplify-plantasappamplify-dev-173441-deployment",
-          "s3Key": "amplify-builds/plantasLamnda-423277557a4e58325952-build.zip"
+          "s3Key": "amplify-builds/plantasLamnda-48714539395672793576-build.zip"
         }
       }
     }
